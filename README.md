@@ -19,8 +19,8 @@ There are 4 different directories included in the repository.
 - **FineTuningNotebook:** Consistis of notebooks used to fine tune the Llama2 model on multiple instructions. 
     [4]. FineTunningLlama2-AlpacaAndTwitterDataset-AlpacaAndCustomInstruction.ipynb -> Fine tuning Llama2 on a combiniation of dataset from Custom instruction Twitter Sentiment Dataset and Alpaca Dataset. 
     [5]. FineTunningLlama2-TwitterDataset-CustomInstruction.ipynb -> Fine tuning Llama2 on a Custom instruction Twitter Sentiment Dataset only.
-- **llama2-finetunedSentimentClassificationOneInstruction:** Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset only.
-- **llama2-finetunedSentimentClassificationTwoInstruction:** Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset and alpaca dataset.
+- **llama2-finetunedSentimentClassificationOneInstruction:** Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset only. (FT-CustomOnly)
+- **llama2-finetunedSentimentClassificationTwoInstruction:** Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset and alpaca dataset. (FT-BothInstruction)
 
 ## Models used for analysis:
 [6] Base Model 
