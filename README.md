@@ -11,14 +11,16 @@ Datasets:
 - Alpaca Dataset -> https://huggingface.co/datasets/tatsu-lab/alpaca
 
 ## Directory detail
-There are 5 different directories included in the repository. 
+There are 4 different directories included in the repository. 
 - EvaluationNotebooks: Consists of all the notebooks used for evaluating the base, single instruction fine tune, and two instructions fine tuned models.  
     [1]. FineTunedModelEvaluation-OnAlpacaData.ipnyb -> Evaluation of the models done on Alpaca Dataset
     [2]. FineTunedModelEvaluation-OnCustomData.ipnyb -> Evaluation of the models done on Custom Instruction Twitter Sentiment Dataset
     [3]. FineTunedModelEvaluation-OnOutOfSampleData.ipnyb -> Evaluation of the models done on 10 different out of sample instructions.
 - FineTuningNotebook: Consistis of notebooks used to fine tune the Llama2 model on multiple instructions. 
     [4]. FineTunningLlama2-AlpacaAndTwitterDataset-AlpacaAndCustomInstruction.ipynb -> Fine tuning Llama2 on a combiniation of dataset from Custom instruction Twitter Sentiment Dataset and Alpaca Dataset. 
-    [5]. FineTunningLlama2-TwitterDataset-CustomInstruction.ipynb -> Fine tuning Llama2 on a Custom instruction Twitter Sentiment Dataset only. 
+    [5]. FineTunningLlama2-TwitterDataset-CustomInstruction.ipynb -> Fine tuning Llama2 on a Custom instruction Twitter Sentiment Dataset only.
+- llama2-finetunedSentimentClassificationOneInstruction: Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset only.
+- llama2-finetunedSentimentClassificationTwoInstruction: Consists the fine tuned model's files -> fine tuned on custom instruction twitter dataset and alpaca dataset.
 
 ## Models used for analysis:
 [6] Base Model 
